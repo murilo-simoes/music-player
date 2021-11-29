@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Mer-Regular';
+    src: url(Fonts/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Mer-Bold';
+    src: url(Fonts/Merriweather-Regular.ttf);
+}
+
+
+
+p{
+    font-family: 'Mer-Regular';
+    font-size: 40px;
+    color:#CCCACA;
+ padding-top: 30px;
+
+
+}
+
+body{
+    background-image: url(images/bg.jpg);
+}
+
+.main-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.music-container{
+    margin: 20px;
+    width: auto;
+    background-image: linear-gradient(to bottom, #8b8383, rgb(66, 54, 58));
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+#title-song{
+    text-transform: uppercase;
+    font-family: 'Mer-Bold';
+    letter-spacing: 5px;
+    color: #242424;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+#album-name{
+    text-transform: uppercase;
+    font-family: 'Mer-Regular';
+    letter-spacing: 5px;
+    color: #CCCACA;
+    font-size: 18px;
+    margin: 0px;
+}
+
+#artist-name{
+    text-transform: uppercase;
+    font-family: 'Mer-Bold';
+    letter-spacing: 5px;
+    color: #CCCACA;
+    font-size: 22px;
+    font-weight: 300;
+    font-weight: 15;
+    margin: 0px;
+}
+
+.image-container{
+    width: 300px;
+    height: 300px;
+    margin:auto;
+    margin-top: 40px;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+    object-fit: cover;
+}
+
+#progress-area{
+    width: 100%;
+    height: 6px;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#progress-bar{
+    width:0;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #242424;
+    transition: width .1s linear;
+}
+
+.timer{
+    font-family: 'Mer-Bold';
+    font-size: 15px;
+    color: #242424;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.music_controls{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.icon_controls{
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.icon_controls:nth-child(1){
+    background-image: url(Images/prev_icon.png);
+}
+
+
+.icon_controls:nth-child(3){
+    background-image: url(Images/next_icon.png);
+}
+
+.icon_controls:hover{
+    transition: all 0.5s ease-out;
+    transform: scale(1.3);
+}
+
+
+.icon_controls:hover{
+    transition: all 0.5s ease-out;
+    transform: scale(1.3);
+}
+.onPause{
+    background-image: url(Images/play_icon.png);
+
+}
+.onPlay{
+    background-image: url(Images/pause_icon.png);
+
+}
+
