@@ -1,2 +1,2 @@
 # music-player
-Minha músicas preferidas do Panic! At The Disco
+🎵Minha músicas preferidas do Panic! At The Disco
