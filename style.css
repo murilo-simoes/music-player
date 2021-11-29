@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Mer-Regular';
-    src: url(fonts/Merriweather-Regular.ttf);
+    src: url('Fonts/Merriweather-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Mer-Bold';
-    src: url(fonts/Merriweather-Regular.ttf);
+    src: url('Fonts/Merriweather-Regular.ttf');
 }
 
 
@@ -20,7 +20,7 @@ p{
 }
 
 body{
-    background-image: url(images/bg.jpg);
+    background-image: url('Images/bg.jpg');
 }
 
 .main-div{
@@ -135,12 +135,12 @@ body{
 }
 
 .icon_controls:nth-child(1){
-    background-image: url(images/prev_icon.png);
+    background-image: url('Images/prev_icon.png');
 }
 
 
 .icon_controls:nth-child(3){
-    background-image: url(images/next_icon.png);
+    background-image: url('Images/next_icon.png');
 }
 
 .icon_controls:hover{
@@ -154,11 +154,11 @@ body{
     transform: scale(1.3);
 }
 .onPause{
-    background-image: url(images/play_icon.png);
+    background-image: url('Images/play_icon.png');
 
 }
 .onPlay{
-    background-image: url(images/pause_icon.png);
+    background-image: url('Images/pause_icon.png');
 
 }
 
