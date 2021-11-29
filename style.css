@@ -33,7 +33,7 @@ body{
 }
 
 .music-container{
-    margin: 20px;
+    margin: 10px;
     width: auto;
     background-image: linear-gradient(to bottom, #8b8383, rgb(66, 54, 58));
     border-radius: 20px;
